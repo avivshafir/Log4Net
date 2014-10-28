@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4NetQuickStartDemo", "Log4NetQuickStartDemo\Log4NetQuickStartDemo.csproj", "{7A344B0F-3B89-47ED-B7AB-EA69BB7194A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.BasicConfigured", "Log4Net.BasicConfigured\Log4Net.BasicConfigured.csproj", "{7A344B0F-3B89-47ED-B7AB-EA69BB7194A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Log4Net.XMLConfigured", "Log4Net.XMLConfigured\Log4Net.XMLConfigured.csproj", "{E2334130-EC1F-4B68-9B9B-0857BF9799AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7A344B0F-3B89-47ED-B7AB-EA69BB7194A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A344B0F-3B89-47ED-B7AB-EA69BB7194A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A344B0F-3B89-47ED-B7AB-EA69BB7194A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2334130-EC1F-4B68-9B9B-0857BF9799AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2334130-EC1F-4B68-9B9B-0857BF9799AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2334130-EC1F-4B68-9B9B-0857BF9799AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2334130-EC1F-4B68-9B9B-0857BF9799AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

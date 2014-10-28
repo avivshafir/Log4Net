@@ -10,7 +10,11 @@ namespace Log4NetQuickStartDemo
 
             var log = log4net.LogManager.GetLogger(typeof (Program));
 
-            log.Info("Hello from log4net!");
+            log.Info("Debug");
+            log.Info("Info");
+            log.Info("Warn");
+            log.Info("Error");
+            log.Info("Fatal");
 
             Console.ReadLine();
         }
